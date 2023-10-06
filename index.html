@@ -18,7 +18,7 @@
       <div></div>
       <div id="Limit-time"></div>
       <div id="score"></div>
-      <div id="play-button">play</div>
+      <div id="play-button">play!</div>
     </div>
   </div>
   <script>
@@ -33,6 +33,10 @@
 
     const playButton = document.getElementById('play-button');
     console.log(playButton);
+
+    playButton.addEventListener('click', function() {
+      console.log(playButton);
+    })
   </script>
 </body>
 </html>
